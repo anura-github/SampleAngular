@@ -1,0 +1,29 @@
+APP COMPONENT
+
+{{"Welcome TO" | lowercase}}
+
+{{123.45|currency:"EUR":true}}
+
+{{123.45|number:"3.4-4"}}
+
+{{title|json}}
+
+{{25|sqrt}}
+
+<h1>{{144|sqrt}}</h1>
+
+<ul>
+<li *ngFor="let a of arr">
+  {{a}}
+</li>
+</ul>
+
+<ol>
+<li *ngFor="let b of namearr">
+  {{b}}
+</li>
+</ol>
+
+<p *ngIf="arr.length>2">Mutliple values are there</p>
+
+<p *ngIf="arr.length==0">No values are there</p>
